@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <title>Dice Roll</title>
+</head>
+
+<body>
+    <h1 id="main-head"><span style="color: greenyellow;">Play</span> <span style="color:yellow;">Dice</span> <span
+            style="color: red;">Roll</span></h1>
+    <div class="game">
+        <h1>Let's Start</h1>
+        <div class="play" id="play">
+            <h3 id="player-1" style="color: greenyellow; letter-spacing: 1px; text-transform: uppercase;"></h3>
+            <h3 id="player-2" style="color: yellow; letter-spacing: 1px;">BAKAR RAJPUT</h3>
+            <img src="" alt="I am here" id="img-1">
+            <div class="dice" id="dice1">
+                <div class="side side-1"></div>
+                <div class="side side-2"></div>
+                <div class="side side-3"></div>
+                <div class="side side-4"></div>
+                <div class="side side-5"></div>
+                <div class="side side-6"></div>
+            </div>
+            <h2 id="win"><span style="color: yellowgreen;">V</span> - <span id="span2" style="color: yellow;">S</span></h2>
+            <img src="" alt="I am here" id="img-2">
+            <div class="dice" id="dice2">
+                <div class="side side-1"></div>
+                <div class="side side-2"></div>
+                <div class="side side-3"></div>
+                <div class="side side-4"></div>
+                <div class="side side-5"></div>
+                <div class="side side-6"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <h2 style="color: yellowgreen;">To PLay</h2>
+            <input type="text" placeholder="ENTER YOUR NAME FIRST" id="name">
+        </div>
+        <button class="button-5" role="button" onclick="handleStart()">Start</button>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
